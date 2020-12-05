@@ -2,16 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -35,4 +25,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.characters__container {
+  display: flex;
+  margin-top: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.card__container__characters {
+  background-color: #FFF;
+  align-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px 10px 10px 0px;
+  overflow: hidden;
+}
+
+.card__container__characters h4 {
+  margin: 5px;
+  text-align: center;
+  color: #0a043c;
+}
+
+.card__container__characters h4 span {
+  color: #03506f;
 }
