@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+.bg-light {
+  background-color: #FAFAFA;
+  color: #252525;
+}
+
+.bg-dark {
+  background-color: #252525;
+  color: #FAFAFA;
+}
 
 .App-header {
   background-color: #282c34;
@@ -37,7 +46,6 @@
 }
 
 .card__container__characters {
-  background-color: #FFF;
   align-content: center;
   align-items: center;
   border: 1px solid gray;
@@ -49,7 +57,7 @@
   overflow: hidden;
 }
 
-.card__container__characters h4 {
+/* .card__container__characters h4 {
   margin: 5px;
   text-align: center;
   color: #0a043c;
@@ -57,4 +65,4 @@
 
 .card__container__characters h4 span {
   color: #03506f;
-}
+} */
